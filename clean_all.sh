@@ -1,0 +1,2 @@
+conda deactivate
+rm -rf example_DA_study miniforge3 1_build_distr_and_collider  2_configure_and_track
