@@ -13,7 +13,8 @@ cd xmask/
 git submodule init
 git submodule update
 cd ../
-git clone https://github.com/xsuite/example_DA_study.git
+git clone --recurse-submodules https://github.com/xsuite/example_DA_study.git
 cd ../
 cp -r ./modules/example_DA_study/studies/template_jobs/* .
 python edit_configs.py
+
