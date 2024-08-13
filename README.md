@@ -2,12 +2,11 @@
 
 After having 
 ```
-git clone 
+git clone https://github.com/sterbini/simple_BB_study.git
 ```
-
-go to your branch.
+checkout  your branch (e.g. hl16 or runIII)
 ```
-git checkut hl16
+git checkout hl16
 # or
 # git checkout runIII
 ```
@@ -15,6 +14,7 @@ git checkut hl16
 To install a new distribution in a UBUNTU like machine
 
 ```
+# tested on pcbe-abp-hpc002
 source 0_install_miniforge.sh 
 ```
 
