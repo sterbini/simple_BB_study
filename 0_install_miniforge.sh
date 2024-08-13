@@ -13,7 +13,7 @@ cd xmask/
 git submodule init
 git submodule update
 cd ../
-git clone --branch runIII https://github.com/xsuite/example_DA_study.git 
+git clone --branch hl16 https://github.com/xsuite/example_DA_study.git 
 cd example_DA_study/
 git submodule update --init --recursive
 cd ../../
